@@ -1,0 +1,94 @@
+  * {
+  margin: 0px;
+  padding: 0px;
+ box-sizing: border-box;
+}
+body {
+background-color: rgb(237, 237, 237);
+position: absolute;
+}
+#box{
+width: 100%;
+padding: 10 px;
+}
+.content {
+margin right: auto;
+margin left: auto;
+border: 2px solid black ;
+background-color:rgb(193, 184, 184);
+} 
+
+section {
+border-bottom: 2px solid black;
+border-left: 2px solid black;
+width:90px;
+height: 25px;
+float: right;
+font-size:20px;
+font-weight: bold;
+text-align: center;
+}
+p{
+font-size: 22px;
+padding: 20px;
+text-align:left;
+font-family:cursive;,sans-serif;
+font-weight:600;
+}
+h1 {
+text-align: center;
+font-family:cursive;,sans-serif;
+}
+#s1 {
+background-color: rgb(230, 163, 163);
+}
+#s2 {
+background-color: rgb(191, 74, 74);
+}
+#s3 {
+background-color: rgb(221,204,95);
+}
+/*Large device*/
+@media (min-width: 992px){
+.lg-1, .lg-2, .lg-3{
+    float: left;
+    margin: 10px;
+}
+.lg-1{
+width: 30%;
+}
+.lg-2{
+width: 30%;
+}
+.lg-3{
+width: 30%;
+}
+}
+/*medium device*/
+@media (min-width:768px) and (max-width:991px){
+.md-1, .md-2, .md-3 {
+ float: left;
+}
+.md-1{
+width:45%;
+margin: 10px;
+}
+.md-2{
+width:45%;
+margin: 10px;
+}
+.md-3{
+width:92%;
+margin:10px;
+}
+}
+/*small device*/
+@media (max-width:767px){
+.sm-1, .sm-2, .sm-3 {
+float: left;
+margin: 20px;
+}
+.sm-1{
+}
+}
+/*window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.*/
