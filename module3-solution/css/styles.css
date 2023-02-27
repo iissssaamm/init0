@@ -1,0 +1,82 @@
+#header-nav {
+background-color: rgba(65, 78, 4, 0.8);
+border: 0;
+border-radius: 0;
+}
+body {
+background-color: rgba(152, 131, 64, 0.8);
+}
+.container-fluid {
+padding: 0;
+}
+.navbar-brand h1 {
+color:rgba(250, 30, 210, 0.78) ;
+margin-left: 0;
+margin-top: 10px;
+padding: 0;
+margin-bottom: 5px;
+font-family:cursive;,sans-serif;
+font-weight: bold;
+} 
+.navbar-brand {
+padding: 0 0 0 15px; 
+}
+h2 {
+background-color: rgba(247, 255, 107, 0.78);
+width: 250px;
+margin: auto;
+border-radius: 10px;
+opacity: .8;
+margin-top: 30px;
+font-family:cursive;,sans-serif;
+font-weight: bold;
+}
+#collapsable-nav {
+border: 0;
+margin-right: 0;
+margin-left: 30px;
+}
+#nav-list {
+text-align: center;
+margin-top: 25px;
+font-size: 1.6em;
+}
+#nav-list span {
+color:whitesmoke;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  }
+  #nav-list span:hover {
+color:rgba(65, 78, 4, 0.8);
+}
+.row {
+margin-top: 30px;
+}
+.menu-item {
+margin-bottom: 40px;
+margin-left: 10px;
+margin-right: 10px;
+border: 2px;
+background-color: rgba(240, 242, 199, 0.68);
+
+}
+h3 {
+text-align: center;
+margin-bottom: 30px;
+color: rgba(25, 26, 1, 0.68);
+font-family: cursive;
+font-size: 1.6em;
+font-weight: bold;
+}
+
+.menu-item p {
+font-style: italic;
+line-height: 2;
+font-size: 1.2em;
+font-weight:500;
+}
+button.navbar-toggle {
+clear: both;
+margin-top: -40px;
+}
